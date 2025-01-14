@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand:hover {
+  color: #1877f2 !important;
+}
+
+.azul img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.hist {
+  padding: 20px;
+  background-color: #dce0f6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hist h4 {
+  color: black;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#map {
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-card {
+  height: auto;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+footer .btn-outline-light {
+  transition: 0.3s;
+}
+
+footer .btn-outline-light:hover {
+  background-color: #f1c40f;
+  color: white;
+}
+
+footer a[href*="facebook.com"]:hover {
+    background-color: #1877f2; 
+    border-color: #1877f2; 
+    color: white; 
+}
+
+footer a[href*="wa.me"]:hover {
+    background-color: #25d366; 
+    border-color: #25d366; 
+    color: white; 
+}
+
+.fixed-size {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.cta {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #f1c40f;
+}
+
+
+ @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleInOutCenter {
+    0% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+header {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+header h1 {
+    animation: fadeInUp 1s ease-out 0.2s forwards;
+}
+
+header p {
+    animation: fadeInUp 1s ease-out 0.4s forwards;
+}
+
+header .cta {
+    animation: fadeInUp 1s ease-out 0.6s forwards;
+}
+
+section {
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+header * {
+    opacity: 0;
+}
+
+
+.animated-div {
+    opacity: 1; 
+    animation: scaleInOutCenter 1.2s ease-in-out infinite alternate;
+    background-color: darkorange;
+}
+
+.leading-1 {
+  line-height: 2;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+footer {
+  width: 100%; 
+  position: relative;
+  left: 0; 
+  bottom: 0; 
+}
+
+
